@@ -1,2 +1,3 @@
 demos/
-.pyc
+*.pyc
+*.swp
