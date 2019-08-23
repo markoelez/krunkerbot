@@ -9,25 +9,31 @@ from Quartz import CGWindowListCopyWindowInfo, kCGNullWindowID, kCGWindowListOpt
 
 bbox = {'top': 100, 'left': 20, 'width': 500, 'height': 500}
 
+windows = CGWindowListCopyWindowInfo(kCGWindowListOptionAll, kCGNullWindowID)
 
+for window in windows:
+    #print(window)
+    try:
+        name = window['kCGWindowName']
+        if name == 'Krunker':
+            print('Krunker window found!')
+            # get window dimensions
+            x = int(window['kCGWindowBounds']['X'])
+            y = int(window['kCGWindowBounds']['Y'])
+            width = int(window['kCGWindowBounds']['Width'])
+            height = int(window['kCGWindowBounds']['Height'])
+
+            center = (width//2, height//2)
+            print(center)
+
+
+    except:
+        # handle exception
+        pass
+
+
+# main loop
 while 1:
-
-    # main loop
-
-    windows = CGWindowListCopyWindowInfo(kCGWindowListOptionAll, kCGNullWindowID)
-
-    time.sleep(0.2)
-
-    for window in windows:
-        try:
-            name = window['kCGWindowName']
-            if name == 'Krunker':
-                print('success!')
-                print(str(int(window.valueForKey_('kCGWindowBounds'))))
-            print(window['Krunker'])
-        except:
-            # handle exception
-            pass
     break
 
 
