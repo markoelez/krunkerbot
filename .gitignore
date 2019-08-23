@@ -1,3 +1,4 @@
 demos/
+__pycache__/
 *.pyc
 *.swp
