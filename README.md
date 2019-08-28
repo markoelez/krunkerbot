@@ -2,6 +2,8 @@ Simple OpenCV aimbot written for Krunker.io
 
 Aimbot can be run either in demo mode (where a image/video file is specified) or in normal mode (where it looks for a Krunker window and starts scanning for enemies, etc.)
 
+Currently not working on this project but I will be coming back to finish it when I have time!
+
 ***Current Features:***
 <ul>
 <li>enemy coordinate detection</li>
