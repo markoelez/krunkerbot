@@ -5,7 +5,7 @@ if __name__ == '__main__':
 
     file_to_test = 'demos/vid3.mp4'
 
-    aimbot = Aimbot(path=file_to_test, isDemo=False)
+    aimbot = Aimbot(path=file_to_test, isDemo=True)
 
     aimbot.start()
 
