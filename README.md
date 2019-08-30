@@ -14,6 +14,7 @@ Currently not working on this project but I will be coming back to finish it whe
 
 ## Demo:
 ![demo](optimized_demo.gif)
+
 Note that in this demo, the aimbot is being run in demo mode on a pre-recorded gameplay video. Thus, rather than the crosshair tracking the enemy coordinates, the mouse is tracking them instead.
 
 ***TODO:***
