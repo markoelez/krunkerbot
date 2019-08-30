@@ -10,8 +10,8 @@ Currently not working on this project but I will be coming back to finish it whe
 <li>supports detection on mp4 frames or jpg/png files</li>
 </ul>
 
-###Demo:
-![demo](demos/demo.gif?raw=true "Demo")
+##Demo:
+![demo](demo.gif?raw=true "Demo")
 
 ***TODO:***
 <ul>
